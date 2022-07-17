@@ -49,9 +49,7 @@ nav ul li a:hover{
 
 #container{
     background-color:white;
-    height: 500px;
-    width:1000px;
+    height: 600px;
+    width:100%;
     position: absolute;
-    top:150px;
-    left: 300px;
 }
