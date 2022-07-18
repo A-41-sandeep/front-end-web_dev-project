@@ -47,6 +47,7 @@ const music_list = [
         music : '../music/music_Rather Be.mp3'
     },
     {
+<<<<<<< HEAD
         img : '../images/Shiddat.jpg',
         name : 'Shiddat',
         artist : 'Manan Bhardwaj',
@@ -83,6 +84,37 @@ const music_list = [
         artist : 'Anvita Dutt Guptan, Jasleen Royal, B Praak, Romy',
         music : '../music/ranjha.mp3'
     }
+=======
+        img : '../images/letmedownslowly.jpg',
+        name : 'Let-me-down-slowly',
+        artist : 'Alec Benjamin',
+        music : '../music/let-me-down-slowly-official-music-video.mp3'
+    },
+    {
+        img : '../images/lovemelikeyoudo.jpg',
+        name : 'love-me-like-you-do',
+        artist : 'Ellie Goulding',
+        music : '../music/love-me-like-you-do-lyrics.mp3'
+    },
+    {
+        img : '../images/tu-aake-dekhle.webp',
+        name : 'Tu-aake-dekhle',
+        artist : 'King',
+        music : '../music/tu-aake-dekhle.mp3'
+    },
+    {
+        img : '../images/pasoori.jpg',
+        name : 'Pasoori',
+        artist : 'Shae Gill,Ali Sethi',
+        music : '../music/pasoori.mp3'
+    },
+    {
+        img : '../images/kehndi.jpg',
+        name : 'Kehndi Hundi Si',
+        artist : 'AP Dhillon',
+        music : '../music/kehndi-hundi-si.mp3'
+    },
+>>>>>>> 9ca33756806308c5bd78aadddf80e49b81307806
 ];
 
 loadTrack(track_index);
