@@ -50,9 +50,9 @@ nav ul li a:hover{
 
 #container{
     background-color:white;
-    height: 500px;
+    height: 450px;
     width:1000px;
     position: absolute;
     top: 150px;
-    left: 250px;
+    left: 200px;
 }
