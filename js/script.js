@@ -47,7 +47,7 @@ const music_list = [
         music : '../music/music_Rather Be.mp3'
     },
     {
-<<<<<<< HEAD
+
         img : '../images/Shiddat.jpg',
         name : 'Shiddat',
         artist : 'Manan Bhardwaj',
@@ -83,8 +83,8 @@ const music_list = [
         name : 'Ranjha',
         artist : 'Anvita Dutt Guptan, Jasleen Royal, B Praak, Romy',
         music : '../music/ranjha.mp3'
-    }
-=======
+    },
+    {
         img : '../images/letmedownslowly.jpg',
         name : 'Let-me-down-slowly',
         artist : 'Alec Benjamin',
@@ -114,7 +114,7 @@ const music_list = [
         artist : 'AP Dhillon',
         music : '../music/kehndi-hundi-si.mp3'
     },
->>>>>>> 9ca33756806308c5bd78aadddf80e49b81307806
+
 ];
 
 loadTrack(track_index);
