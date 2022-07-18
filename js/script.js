@@ -45,6 +45,37 @@ const music_list = [
         name : 'Rather Be',
         artist : 'Clean Bandit',
         music : '../music/music_Rather Be.mp3'
+    },
+    {
+        img : '../images/Shiddat.jpg',
+        name : 'Shiddat',
+        artist : 'Manan Bhardwaj',
+        music : '../music/music_Shiddat.mp3'
+    },
+    
+    {
+        img : '../images/chitta.jpg',
+        name : 'Chitta',
+        artist : 'Manan Bhardwaj',
+        music : '../music/music_chitta.mp3'
+    },
+    {
+        img : '../images/Barbaadiyan.jpg',
+        name : 'Barbaadiyan',
+        artist : ' Nikhita Gandhi, Madhubanti Bagchi, Sachet Tandon, Sachin–Jigar',
+        music : '../music/Barbaadiyan.mp3'
+    },
+    {
+        img : '../images/jigar.jpg',
+        name : 'Jug Jug Jeeve',
+        artist : ' Sachet–Parampara, Sachet Tandon, Sachin–Jigar',
+        music : '../music/Jug Jug Jeeve.mp3'
+    },
+    {
+        img : '../images/kesariya.jpg',
+        name : 'Kesariya',
+        artist : 'Arjit Singh',
+        music : '../music/music_kesariya.mp3'
     }
 ];
 
