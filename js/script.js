@@ -76,6 +76,12 @@ const music_list = [
         name : 'Kesariya',
         artist : 'Arjit Singh',
         music : '../music/music_kesariya.mp3'
+    },
+    {
+        img : '../images/ranjha.jpg',
+        name : 'Ranjha',
+        artist : 'Anvita Dutt Guptan, Jasleen Royal, B Praak, Romy',
+        music : '../music/ranjha.mp3'
     }
 ];
 
