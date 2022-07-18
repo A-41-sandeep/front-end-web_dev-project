@@ -6,6 +6,7 @@
 .bg{
     background-image: url("https://cdn.pixabay.com/photo/2020/02/11/14/10/earphones-4839690_1280.jpg"); 
     height:100vh;
+    width: 100%;
     background-repeat: no-repeat;
     position: relative;
     background-size: cover;
@@ -49,7 +50,9 @@ nav ul li a:hover{
 
 #container{
     background-color:white;
-    height: 600px;
-    width:100%;
+    height: 500px;
+    width:1000px;
     position: absolute;
+    top: 150px;
+    left: 250px;
 }
