@@ -45,7 +45,25 @@ const music_list = [
         name : 'Rather Be',
         artist : 'Clean Bandit',
         music : '../music/music_Rather Be.mp3'
-    }
+    },
+    {
+        img : '../images/letmedownslowly.jpg',
+        name : 'Let-me-down-slowly',
+        artist : 'Alec Benjamin',
+        music : '../music/let-me-down-slowly-official-music-video.mp3'
+    },
+    {
+        img : '../images/lovemelikeyoudo.jpg',
+        name : 'love-me-like-you-do',
+        artist : 'Ellie Goulding',
+        music : '../music/love-me-like-you-do-lyrics.mp3'
+    },
+    {
+        img : '../images/tu-aake-dekhle.webp',
+        name : 'Tu-aake-dekhle',
+        artist : 'King',
+        music : '../music/tu-aake-dekhle.mp3'
+    },
 ];
 
 loadTrack(track_index);
