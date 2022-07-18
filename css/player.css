@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .bg{
-    background-image: url("https://cdn.pixabay.com/photo/2020/02/11/14/10/earphones-4839690_1280.jpg"); 
+    background-image: url("https://www.ppt-backgrounds.net/thumbs/dark--2560x1600--71060-template-image.jpeg"); 
     height:100vh;
     width: 100%;
     background-repeat: no-repeat;
@@ -61,7 +61,7 @@ nav ul li a:hover{
 .wrapper{
     height: 600px;
     width: 1000px;
-    background-color:palevioletred;
+    background-color:rgba(0, 0, 0, 0.39);
     border: 1px solid transparent;
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
@@ -89,13 +89,17 @@ nav ul li a:hover{
 }
 .now-playing{
     font-size: 1rem;
+    color:white;
 }
 .track-name{
     font-size: 2.5rem;
+    color:white;
+    text-shadow: pink;
 }
 .track-artist{
     margin-top: 5px;
     font-size: 1.5rem;
+    color:white;
 }
 .buttons{
     display: flex;
@@ -127,6 +131,7 @@ nav ul li a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
 }
 .seek_slider,
 .volume_slider{
@@ -176,7 +181,7 @@ i.fa-step-backward{
     cursor: pointer;
 }
 .randomActive{
-    color: black;
+    color:black;
 }
 .rotate{
     animation: rotation 8s infinite linear;
