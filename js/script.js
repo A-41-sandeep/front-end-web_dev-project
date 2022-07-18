@@ -64,6 +64,18 @@ const music_list = [
         artist : 'King',
         music : '../music/tu-aake-dekhle.mp3'
     },
+    {
+        img : '../images/pasoori.jpg',
+        name : 'Pasoori',
+        artist : 'Shae Gill,Ali Sethi',
+        music : '../music/pasoori.mp3'
+    },
+    {
+        img : '../images/kehndi.jpg',
+        name : 'Kehndi Hundi Si',
+        artist : 'AP Dhillon',
+        music : '../music/kehndi-hundi-si.mp3'
+    },
 ];
 
 loadTrack(track_index);
