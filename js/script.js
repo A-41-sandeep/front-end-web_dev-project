@@ -25,26 +25,26 @@ const music_list = [
         img : '../images/stay.png',
         name : 'Stay',
         artist : 'The Kid LAROI, Justin Bieber',
-        music : "../music/music_stay.mp3"
+        music : "../music/stay-official-video.mp3"
         
     },
     {
         img : '../images/fallingdown.jpg',
         name : 'Falling Down',
         artist : 'Wid Cards',
-        music : '../music/music_fallingdown.mp3'
+        music : '../music/falling-down-lyrics-lyric-video-ft-james-delaney.mp3'
     },
     {
         img : '../images/faded.png',
         name : 'Faded',
         artist : 'Alan Walker',
-        music : '../music/music_Faded.mp3'
+        music : '../music/faded.mp3'
     },
     {
         img : '../images/ratherbe.jpg',
         name : 'Rather Be',
         artist : 'Clean Bandit',
-        music : '../music/music_Rather Be.mp3'
+        music : '../music/rather-be-lyrics-feat-jess-glynne.mp3'
     },
     {
 
@@ -114,6 +114,24 @@ const music_list = [
         artist : 'AP Dhillon',
         music : '../music/kehndi-hundi-si.mp3'
     },
+    {
+        img : '../images/yehraateyehmausam.jpg',
+        name : 'Yeh raate Yeh Mausam',
+        artist : 'Kishore Kumar,Asha Bhosle',
+        music : '../music/kishore-kumar-asha-bhosle-at-dilli-ka-thug-kishore-kumar-nutan.mp3'
+    },
+    {
+        img : '../images/zindagieksafarhaisuhana.jpg',
+        name : 'Zindagi Ek Safar Hai Suhana',
+        artist : 'Kishore Kumar',
+        music : '../music/zindagi-ek-safar-andaz-1971-hema-malini-rajesh-khanna-kishore-kumar-hits-hd.mp3'
+    },
+    {
+        img : '../images/haiapnadiltohaawara',
+        name : 'Hai Apna Dil Toh Aawara',
+        artist : 'Hemant Kumar',
+        music : '../music/'
+    }
 
 ];
 
