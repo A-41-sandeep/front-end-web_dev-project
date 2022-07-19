@@ -131,7 +131,25 @@ const music_list = [
         name : 'Hai Apna Dil Toh Aawara',
         artist : 'Hemant Kumar',
         music : '../music/'
-    }
+    },
+    {
+        img : '../images/perfect.jpg',
+        name : 'Perfect',
+        artist : 'Ed Sheeran',
+        music : '../music/perfect-lyrics.mp3'
+    },
+    {
+        img : '../images/memories.jpg',
+        name : 'Memories',
+        artist : 'Maroon 5',
+        music : '../music/memories-lyrics.mp3'
+    },
+    {
+        img : '../images/attention.jpg',
+        name : 'Attention',
+        artist : 'Charlie Puth',
+        music : '../music/charlie-puth-lyrics.mp3'
+    },
 
 ];
 
