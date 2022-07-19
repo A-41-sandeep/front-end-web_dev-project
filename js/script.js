@@ -105,7 +105,7 @@ const music_list = [
     {
         img : '../images/pasoori.jpg',
         name : 'Pasoori',
-        artist : 'Shae Gill,Ali Sethi',
+        artist : 'Shae Gill, Ali Sethi',
         music : '../music/pasoori.mp3'
     },
     {
@@ -117,7 +117,7 @@ const music_list = [
     {
         img : '../images/yehraateyehmausam.jpg',
         name : 'Yeh raate Yeh Mausam',
-        artist : 'Kishore Kumar,Asha Bhosle',
+        artist : 'Kishore Kumar, Asha Bhosle',
         music : '../music/kishore-kumar-asha-bhosle-at-dilli-ka-thug-kishore-kumar-nutan.mp3'
     },
     {
@@ -127,7 +127,7 @@ const music_list = [
         music : '../music/zindagi-ek-safar-andaz-1971-hema-malini-rajesh-khanna-kishore-kumar-hits-hd.mp3'
     },
     {
-        img : '../images/haiapnadiltohaawara',
+        img : '../images/haiapnadiltohaawara.jpg',
         name : 'Hai Apna Dil Toh Aawara',
         artist : 'Hemant Kumar',
         music : '../music/'
@@ -150,7 +150,44 @@ const music_list = [
         artist : 'Charlie Puth',
         music : '../music/charlie-puth-lyrics.mp3'
     },
+    {
+        img : '../images/haiapnadiltohaawara',
+        img : '../images/haiapnadiltohaawara.jpg',
+        name : 'Hai Apna Dil Toh Aawara',
+        artist : 'Hemant Kumar',
+        music : '../music/hai-apna-dil-to-awara-dev-anand-waheeda-rehman-hemant-kumar-solva-saal-ishtar-music.mp3'
+    },
+    {
+        img : '../images/dekha-ek-khwab.jpg',
+        name : 'Dekha Ek Khwab',
+        artist : 'Kishore Kumar, Lata Mangeshkar',
+        music : '../music/hari.mp3'
+    },
+    {
+        img : '../images/say-shava-shava.jpg',
+        name : 'Say "Shava Shava"',
+        artist : 'Udit Narayan, Alka Yagnik',
+        music : '../music/k3g-amitabh-bachchan-shah-rukh-rani-kajol-alka-yagnik.mp3'
+    },
+    {
+        img : '../images/yeh-ishq-hai.jpg',
+        name : 'Yeh Ishq Hai',
+        artist : 'Shreya Ghoshal',
+        music : '../music/full-video-yeh-ishq-hai-jab-we-met-kareena-kapoor-shahid-kapoor-pritam-shreya-ghoshal.mp3'
 
+    },
+    {
+        img : '../images/namo-namo.jpg',
+        name : 'Namo Namo',
+        artist : 'Amit Trivedi',
+        music : '../music/full-video-kedarnath-sushant-rajput-sara-ali-khan-amit-trivedi-amitabh-b.mp3'
+    },
+    {
+        img : '../images/woh-kisna-hai.jpg',
+        name : 'Woh Kisna Hai',
+        artist : ' Ayesha Darbar, Sukhwinder Singh, M. Shailaja',
+        music : '../music/woh-kisna-hai-sukhwinder-singh-vivek-oberoi-isha-sharvani-javed-akhtar-kisna-movie-songs.mp3'
+    },
 ];
 
 loadTrack(track_index);
