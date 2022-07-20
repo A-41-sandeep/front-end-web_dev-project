@@ -151,13 +151,6 @@ const music_list = [
         music : '../music/charlie-puth-lyrics.mp3'
     },
     {
-        img : '../images/haiapnadiltohaawara',
-        img : '../images/haiapnadiltohaawara.jpg',
-        name : 'Hai Apna Dil Toh Aawara',
-        artist : 'Hemant Kumar',
-        music : '../music/hai-apna-dil-to-awara-dev-anand-waheeda-rehman-hemant-kumar-solva-saal-ishtar-music.mp3'
-    },
-    {
         img : '../images/dekha-ek-khwab.jpg',
         name : 'Dekha Ek Khwab',
         artist : 'Kishore Kumar, Lata Mangeshkar',
