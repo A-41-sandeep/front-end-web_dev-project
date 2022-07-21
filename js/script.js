@@ -22,31 +22,6 @@ let updateTimer;
 
 const music_list = [
     {
-        img : '../images/stay.png',
-        name : 'Stay',
-        artist : 'The Kid LAROI, Justin Bieber',
-        music : "../music/stay-official-video.mp3"
-        
-    },
-    {
-        img : '../images/fallingdown.jpg',
-        name : 'Falling Down',
-        artist : 'Wid Cards',
-        music : '../music/falling-down-lyrics-lyric-video-ft-james-delaney.mp3'
-    },
-    {
-        img : '../images/faded.png',
-        name : 'Faded',
-        artist : 'Alan Walker',
-        music : '../music/faded.mp3'
-    },
-    {
-        img : '../images/ratherbe.jpg',
-        name : 'Rather Be',
-        artist : 'Clean Bandit',
-        music : '../music/rather-be-lyrics-feat-jess-glynne.mp3'
-    },
-    {
         img : '../images/senorita.jpg',
         name : 'Senorita',
         artist : ' Camila Cabello, Shawn Mendes',
