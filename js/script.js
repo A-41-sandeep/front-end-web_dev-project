@@ -128,7 +128,7 @@ const music_list = [
         music : '../music/kehndi-hundi-si.mp3'
     },
     {
-        img : '../images/banars.jpg',
+        img : '../images/banaras.jpg',
         name : 'Tu-banja-gali-banaras-ki',
         artist : 'Asees Kaur',
         music : '../music/tu bnja gali banaras ki.mp3'
