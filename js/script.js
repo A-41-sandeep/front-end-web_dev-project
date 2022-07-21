@@ -128,7 +128,6 @@ const music_list = [
         music : '../music/kehndi-hundi-si.mp3'
     },
     {
-<<<<<<< HEAD
         img : '../images/banars.jpg',
         name : 'Tu-banja-gali-banaras-ki',
         artist : 'Asees Kaur',
@@ -140,8 +139,7 @@ const music_list = [
         artist : 'DJ Khushi, Shashi, Nikhita Gandhi, Madhubanti Bagchi',
         music : '../music/burj-khalifa.mp3'
     },
-=======
-        img : '../images/yehraateyehmausam.jpg',
+    {    img : '../images/yehraateyehmausam.jpg',
         name : 'Yeh raate Yeh Mausam',
         artist : 'Kishore Kumar, Asha Bhosle',
         music : '../music/kishore-kumar-asha-bhosle-at-dilli-ka-thug-kishore-kumar-nutan.mp3'
@@ -193,7 +191,6 @@ const music_list = [
         name : 'Yeh Ishq Hai',
         artist : 'Shreya Ghoshal',
         music : '../music/full-video-yeh-ishq-hai-jab-we-met-kareena-kapoor-shahid-kapoor-pritam-shreya-ghoshal.mp3'
->>>>>>> 4a550c062306fedbb295b015c4d28dd6bf61e0e5
 
     },
     {
