@@ -191,8 +191,6 @@ const music_list = [
         name : 'Yeh Ishq Hai',
         artist : 'Shreya Ghoshal',
         music : '../music/full-video-yeh-ishq-hai-jab-we-met-kareena-kapoor-shahid-kapoor-pritam-shreya-ghoshal.mp3'
-
-
     },
     {
         img : '../images/namo-namo.jpg',
