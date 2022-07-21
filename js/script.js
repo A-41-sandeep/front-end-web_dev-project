@@ -54,10 +54,10 @@ const music_list = [
     },
     {
 
-        img : '../images/Shiddat.jpg',
+        img : '../images/shiddat.jpg',
         name : 'Shiddat',
         artist : 'Manan Bhardwaj',
-        music : '../music/music_Shiddat.mp3'
+        music : '../music/music_shiddat.mp3'
     },
     
     {
@@ -70,7 +70,7 @@ const music_list = [
         img : '../images/Barbaadiyan.jpg',
         name : 'Barbaadiyan',
         artist : ' Nikhita Gandhi, Madhubanti Bagchi, Sachet Tandon, Sachin–Jigar',
-        music : '../music/Barbaadiyan.mp3'
+        music : '../music/barbaadiyan.mp3'
     },
     {
         img : '../images/jigar.jpg',
