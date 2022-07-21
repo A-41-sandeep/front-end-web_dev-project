@@ -47,6 +47,12 @@ const music_list = [
         music : '../music/rather-be-lyrics-feat-jess-glynne.mp3'
     },
     {
+        img : '../images/senorita.jpg',
+        name : 'Senorita',
+        artist : ' Camila Cabello, Shawn Mendes',
+        music : '../music/senorita.mp3'
+    },
+    {
 
         img : '../images/Shiddat.jpg',
         name : 'Shiddat',
@@ -84,6 +90,13 @@ const music_list = [
         artist : 'Anvita Dutt Guptan, Jasleen Royal, B Praak, Romy',
         music : '../music/ranjha.mp3'
     },
+    
+    {
+        img : '../images/gypsy.jpg',
+        name : 'Gypsy(Balam Thanedar)',
+        artist : 'GD Kaur',
+        music : '../music/gypsy.mp3'
+    },
     {
         img : '../images/letmedownslowly.jpg',
         name : 'Let-me-down-slowly',
@@ -115,7 +128,18 @@ const music_list = [
         music : '../music/kehndi-hundi-si.mp3'
     },
     {
-        img : '../images/yehraateyehmausam.jpg',
+        img : '../images/banars.jpg',
+        name : 'Tu-banja-gali-banaras-ki',
+        artist : 'Asees Kaur',
+        music : '../music/tu bnja gali banaras ki.mp3'
+    },
+    {
+        img : '../images/burjkhalifa.jpg',
+        name : 'Burj-Khalifa',
+        artist : 'DJ Khushi, Shashi, Nikhita Gandhi, Madhubanti Bagchi',
+        music : '../music/burj-khalifa.mp3'
+    },
+    {    img : '../images/yehraateyehmausam.jpg',
         name : 'Yeh raate Yeh Mausam',
         artist : 'Kishore Kumar, Asha Bhosle',
         music : '../music/kishore-kumar-asha-bhosle-at-dilli-ka-thug-kishore-kumar-nutan.mp3'
