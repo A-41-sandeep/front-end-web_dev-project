@@ -59,7 +59,7 @@ nav ul li a:hover{
     align-items: center;
     color: white;
 }
-#progressBar{
+#myprogressBar{
    width:80vw; 
    cursor: pointer;
 }

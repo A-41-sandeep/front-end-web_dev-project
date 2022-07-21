@@ -1,21 +1,21 @@
 //Initialize
 let songIndex=0;
-let audioElement=new Audio("../songs/1.mp3");
-let masterPlay=document.getElementById("masterPlay");
-let progressBar=document.getElementById('progressBar');
-let gif=document.getElementById("gif");
+let audioElement=new Audio('../songs/1.mp3');
+let masterPlay=document.getElementById('masterPlay');
+let myprogressBar=document.getElementById('myprogressBar');
+let gif=document.getElementById('gif');
 let masterSongName = document.getElementById('masterSongName');
-let songItems=Array.from(document.getElementsByClassName("songItem"));
+let songItems=Array.from(document.getElementsByClassName('songItem'));
 
 let songs=[
-    {songName:"Perfect",filePath:"../music/perfect-lyrics.mp3",coverPath:"../images/perfect.jpg"},
-    {songName:"Memories",filePath:"../music/memories-lyrics.mp3",coverPath:"../images/memories.jpg"},
-    {songName:"Love me Like you do",filePath:"../music/love-me-like-you-do-lyrics.mp3",coverPath:"../images/lovemelikeyoudo.jpg"},
-    {songName:"Stay",filePath:"../music/stay-official-video.mp3",coverPath:"../images/stay.png"},
-    {songName:"Let me down slowly",filePath:"../music/let-me-down-slowly-official-music-video.mp3",coverPath:"../images/letmedownslowly.jpg"},
-    {songName:"Kehndi Hundi Si",filePath:"../music/kehndi-hundi-si.mp3",coverPath:"../images/kehndi.jpg"},
-    {songName:"Pasoori",filePath:"../music/pasoori.mp3",coverPath:"../images/pasoori.jpg"},
-    {songName:"Tu aake Dekhle",filePath:"../music/tu-aake-dekhle.mp3",coverPath:"../images/tu-aake-dekhle.webp"},
+    {songName:"Perfect",filePath:"songs/1.mp3",coverPath:"../images/perfect.jpg"},
+    {songName:"Memories",filePath:"songs/2.mp3",coverPath:"../images/memories.jpg"},
+    {songName:"Love me Like you do",filePath:"songs/3.mp3",coverPath:"../images/lovemelikeyoudo.jpg"},
+    {songName:"Attention",filePath:"songs/4.mp3",coverPath:"../images/attention.jpg"},
+    {songName:"Let me down slowly",filePath:"songs/5.mp3",coverPath:"../images/letmedownslowly.jpg"},
+    {songName:"Kehndi Hundi Si",filePath:"songs/6.mp3",coverPath:"../images/kehndi.jpg"},
+    {songName:"Pasoori",filePath:"songs/7.mp3",coverPath:"../images/pasoori.jpg"},
+    {songName:"Tu aake Dekhle",filePath:"songs/8.mp3",coverPath:"../images/tu-aake-dekhle.webp"},
 
 
 ]
@@ -40,13 +40,13 @@ masterPlay.addEventListener('click', ()=>{
 
     }
 })
-audioElement.addEventListener("timeupdate",()=>{
+audioElement.addEventListener('timeupdate',()=>{
 
     progress=parseInt((audioElement.currentTime/audioElement.duration)*100);
-    progressBar.value=progress;
+    myprogressBar.value=progress;
 })
-progressBar.addEventListener('change',()=>{
-    audioElement.currentTime=progressBar.value*audioElement.duration/100;
+myprogressBar.addEventListener('change',()=>{
+    audioElement.currentTime=myprogressBar.value*audioElement.duration/100;
 })
 const makeAllPlays = ()=>{
     Array.from(document.getElementsByClassName('songItemPlay')).forEach((element)=>{
