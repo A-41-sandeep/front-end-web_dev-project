@@ -128,7 +128,7 @@ const music_list = [
         music : '../music/kehndi-hundi-si.mp3'
     },
     {
-        img : '../images/banars.jpg',
+        img : '../images/banaras.jpg',
         name : 'Tu-banja-gali-banaras-ki',
         artist : 'Asees Kaur',
         music : '../music/tu bnja gali banaras ki.mp3'
@@ -154,7 +154,7 @@ const music_list = [
         img : '../images/haiapnadiltohaawara.jpg',
         name : 'Hai Apna Dil Toh Aawara',
         artist : 'Hemant Kumar',
-        music : '../music/'
+        music : '../music/hai-apna-dil-to-awara-dev-anand-waheeda-rehman-hemant-kumar-solva-saal-ishtar-music.mp3'
     },
     {
         img : '../images/perfect.jpg',
