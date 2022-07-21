@@ -129,7 +129,7 @@ const music_list = [
     },
     {
 
-        img : '../images/banars.jpg',
+        img : '../images/banaras.jpg',
         name : 'Tu-banja-gali-banaras-ki',
         artist : 'Asees Kaur',
         music : '../music/tu bnja gali banaras ki.mp3'
