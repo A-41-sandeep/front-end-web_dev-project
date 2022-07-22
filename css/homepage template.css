@@ -49,14 +49,32 @@ nav ul li a:hover{
     font-size: 40px;
     text-align: center;
     margin:0%;
-}
-#head{
-    color: white;
-    font-weight: bold;
-    font-size: 120px;
-    text-transform: uppercase;
-    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%,-50%);
 }
 #socialmedia{
     margin-left: 400px;
+}
+#head{
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    transform: translate(-50%,-50%);
+    color: transparent;
+    font-weight: bold;
+    font-size: 120px;
+    text-transform: uppercase;
+    -webkit-text-stroke: 1px #fff;
+    background: url(../images/images.png);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+    /* text-align: center; */
+}
+@keyframes back {
+    100%{
+        background-position: 2000px 0;
+    }
 }
