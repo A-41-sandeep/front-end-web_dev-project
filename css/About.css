@@ -5,6 +5,7 @@
 }
 .bg{
     background-image: url("https://www.ppt-backgrounds.net/thumbs/dark--2560x1600--71060-template-image.jpeg"); 
+   /* background-image: url("https://images.unsplash.com/photo-1487215078519-e21cc028cb29?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"); */
     background-repeat:repeat-y;
     background-size: cover;
     height: 1100px;
@@ -96,4 +97,4 @@ h2{
     justify-content: center;
     align-items: center;
     bottom: 0%;
-    margin-top: 250px;
+    margin-top: 250px;}
