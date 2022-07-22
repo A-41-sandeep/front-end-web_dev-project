@@ -16,8 +16,11 @@ let songs=[
     {songName:"Kehndi Hundi Si",filePath:"songs/6.mp3",coverPath:"../images/kehndi.jpg"},
     {songName:"Pasoori",filePath:"songs/7.mp3",coverPath:"../images/pasoori.jpg"},
     {songName:"Tu aake Dekhle",filePath:"songs/8.mp3",coverPath:"../images/tu-aake-dekhle.webp"},
-
-
+    {songName:"Yeh Raate Yeh Mausam",filePath:"songs/9.mp3",coverPath:"../images/yehraateyehmausam.jpg"},
+    {songName:"Hai Apna Dil Toh Aawara",filePath:"songs/10.mp3",coverPath:"../images/haiapnadiltohaawara.jpg"},    
+    {songName:"Yeh Ishq Hai",filePath:"songs/11.mp3",coverPath:"../images/yeh-ishq-hai.jpg"},
+    {songName:"Namo Namo",filePath:"songs/12.mp3",coverPath:"../images/namo-namo.jpg"},
+    {songName:"Woh Kisna Hai",filePath:"songs/13.mp3",coverPath:"../images/woh-kisna-hai.jpg"},
 ]
 songItems.forEach((element,i)=>{
   element.getElementsByTagName("img")[0].src=songs[i].coverPath;

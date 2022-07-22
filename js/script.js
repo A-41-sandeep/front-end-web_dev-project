@@ -140,7 +140,7 @@ const music_list = [
         music : '../music/burj-khalifa.mp3'
     },
     {    img : '../images/yehraateyehmausam.jpg',
-        name : 'Yeh raate Yeh Mausam',
+        name : 'Yeh Raate Yeh Mausam',
         artist : 'Kishore Kumar, Asha Bhosle',
         music : '../music/kishore-kumar-asha-bhosle-at-dilli-ka-thug-kishore-kumar-nutan.mp3'
     },
