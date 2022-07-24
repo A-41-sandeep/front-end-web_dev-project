@@ -1,4 +1,4 @@
-// alert("helo")
+
 const signupBtn = document.querySelector(".signupBtn");
 const loginBtn = document.querySelector(".loginBtn");
 const moveBtn = document.querySelector(".moveBtn");
