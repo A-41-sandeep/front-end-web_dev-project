@@ -21,6 +21,7 @@ body,input{
     background-color: transparent;
     min-height: 100vh;
     overflow: hidden;
+    /* background-image: url("https://www.ppt-backgrounds.net/thumbs/dark--2560x1600--71060-template-image.jpeg"); */
 }
 .forms-container{
     display: flex;
