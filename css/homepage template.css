@@ -78,3 +78,20 @@ nav ul li a:hover{
         background-position: 2000px 0;
     }
 }
+.login{
+    float: right;
+    right: 0;
+    margin-left: 500px;
+    text-decoration: none;
+    font-size:20px;
+    color: white;
+    transition: all 0.5s;
+}
+.login:hover{
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+    transition:0.5s;
+    padding:10px;
+    border:1.5px solid turquoise;
+}
