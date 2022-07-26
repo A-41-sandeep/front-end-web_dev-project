@@ -27,7 +27,7 @@ body,input{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: black;
+    background-image: url("https://www.ppt-backgrounds.net/thumbs/dark--2560x1600--71060-template-image.jpeg");
     position: absolute;
     width: 100%;
     height: 100%;
@@ -139,6 +139,7 @@ form{
 .social-text{
     padding: 0.7rem 0;
     margin-left: 50px;
+    color: color: aliceblue;
 }
 .social-media{
     display: flex;
