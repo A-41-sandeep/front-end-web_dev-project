@@ -58,7 +58,7 @@
     color: black;
 }
 #socialmedia{
-    margin-left: 1188px;
+    margin-left: 1150px;
     margin-top: -55px;
 }
 .player{
@@ -70,7 +70,7 @@
 }
 .wrapper{
     height: 600px;
-    width: 1000px;
+    width: 900px;
     background-color:rgba(0, 0, 0, 0.39);
     border: 1px solid transparent;
     border-radius: 20px;
