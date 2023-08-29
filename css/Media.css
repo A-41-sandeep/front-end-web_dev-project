@@ -4,45 +4,63 @@
 }
 .bg{
     background-image: url("https://www.ppt-backgrounds.net/thumbs/dark--2560x1600--71060-template-image.jpeg"); 
-    /* background-image: url("https://images.unsplash.com/photo-1487215078519-e21cc028cb29?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"); */
     background-repeat:repeat-y;
     background-size: cover;
-    /* height:700px; */
 }
-nav{
-    width:100%;
-    height:90px;
+.header{
+    width: 100%;
+    height: 70px;
     background-color: rgb(32, 32, 32);
+    padding: 0px 20px;
+}
+.menu{
+    list-style: none;
+    float: left;
     color: white;
     font-family:Arial, Helvetica, sans-serif;
     text-transform: uppercase;
-    margin-top:0px;
-    display: flex;
-    justify-content: left;
-    align-items: center;
-
 }
-nav ul{
-    display: flex;
+.menu li{
+    display: inline-block;
+    line-height: 70px;
 }
-nav ul li{
-    list-style: none;
-    margin:30px;
-}
-nav ul li a{
-    color: white;
+.menu li a{
     text-decoration: none;
+    color: white;
+    padding: 0px 20px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
 }
-nav ul li a:hover{
+.menu li a:hover{
     background-color: black;
     color: white;
     border-radius: 3px;
     transition:0.5s;
     padding:10px;
     border:1.5px solid turquoise;
-} 
+}
+.show-btn,.hide-btn{
+    color: white;
+    font-size: 30px;
+    line-height: 70px;
+    display: none;
+    
+}
+.show-btn{
+    float: right;
+}
+#chk{
+    position: absolute;
+    visibility: hidden;
+    z-index: -10;
+}
+.show-btn:hover, .hide-btn:hover{
+    color: black;
+}
 #socialmedia{
-    margin-left: 400px;
+    margin-left: 1188px;
+    margin-top: -55px;
 }
 .container{
     min-height: 90vh;
@@ -134,4 +152,91 @@ border-top-left-radius: 20px;
     margin-top: 20px;
     font-size: 25px;
     font-style: italic;
+}
+
+@media only screen and (max-width: 768px) {
+    .header{
+        width: 320px;
+    }
+    .show-btn,.hide-btn{
+        display: block;
+    }
+    .bg{
+        background-size: cover;
+        
+    }
+    .menu {
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        right: -100%;
+        width: 100%;
+        height: 100vh;
+        background-color: #333;
+        line-height: normal;
+        text-align: center;
+        transition: .7s;
+        padding: 80px 0px;
+    }
+    .menu li{
+        display: block;
+    }
+    .menu li a{
+        display: block;
+    }
+    .menu li a:hover{
+        background-color: black;
+        color: white;
+        border-radius: 3px;
+        transition:0.5s;
+        padding:5px;
+        border:1.5px solid turquoise;
+    }
+    #chk:checked ~ .menu{
+        right: 0;
+    }
+    .hide-btn{
+        position: absolute;
+        right: 20px;
+        top: 10px;
+    }
+    h1{
+        font-size: 24px;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .songItem{
+        width: 340px;
+        margin-left: 14px;
+    }
+    span.songName{
+        font-size: 18px;
+    }
+    .right{
+        margin: 0;
+        padding: 0;
+        width: 280px;
+        height: 240px;
+        z-index: 0;
+        margin-top: -40px;
+        margin-left: 20px;
+    }
+    .righthead{
+        font-size: 25px;
+    }
+    .description{
+        font-size: 18px;
+    }
+    div.songInfo{
+        margin-left: -20px;
+    }
+    .icons{
+        margin-left: 100px;
+    }
+    .songItemContainer{
+        margin-top: 320px;
+    }
+    #myprogressBar{
+        width: 80%;
+    }
 }

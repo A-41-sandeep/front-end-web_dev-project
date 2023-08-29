@@ -1,6 +1,6 @@
 *{
-    margin:0px;
-    padding: 0%;
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
 .bg{
@@ -10,38 +10,6 @@
     background-size: cover;
     opacity: 1;
 }
-nav{
-    width:100%;
-    height:90px;
-    background-color: rgb(32, 32, 32);
-    color: white;
-    font-family:Arial, Helvetica, sans-serif;
-    text-transform: uppercase;
-    margin-top:0px;
-    display: flex;
-    justify-content: left;
-    align-items: center;
-
-}
-nav ul{
-    display: flex;
-}
-nav ul li{
-    list-style: none;
-    margin:30px;
-}
-nav ul li a{
-    color: white;
-    text-decoration: none;
-}
-nav ul li a:hover{
-    background-color: black;
-    color: white;
-    border-radius: 3px;
-    transition:0.5s;
-    padding:10px;
-    border:1.5px solid turquoise;
-} 
 #music{
     font-family:'Finlandica', sans-serif;
     color: rgba(255, 249, 249, 0.932);
@@ -55,7 +23,8 @@ nav ul li a:hover{
     transform: translate(-50%,-50%);
 }
 #socialmedia{
-    margin-left: 400px;
+    margin-left: 1188px;
+    margin-top: -55px;
 }
 #head{
     position: absolute;
@@ -100,13 +69,146 @@ nav ul li a:hover{
     height:50px;
     background-color:black;
     color:white;
-    margin-left: 180px;
-    margin-top: 300px;
+    margin-left: 170px;
+    margin-top: 310px;
     text-align: center;
     font-style: italic;
     padding-right: 50px;
     padding-top: 13px;
     border:2px solid turquoise
-    /* display: flex; */
-    /* align-items: center; */
+}
+.header{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(32, 32, 32);
+    padding: 0px 20px;
+}
+.menu{
+    list-style: none;
+    float: left;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+.menu li{
+    display: inline-block;
+    line-height: 70px;
+}
+.menu li a{
+    text-decoration: none;
+    color: white;
+    padding: 0px 20px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+}
+.menu li a:hover{
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+    transition:0.5s;
+    padding:10px;
+    border:1.5px solid turquoise;
+}
+.show-btn,.hide-btn{
+    color: white;
+    font-size: 30px;
+    line-height: 70px;
+    display: none;
+    
+}
+.show-btn{
+    float: right;
+}
+#chk{
+    position: absolute;
+    visibility: hidden;
+    z-index: -10;
+}
+.show-btn:hover, .hide-btn:hover{
+    color: black;
+}
+@media only screen and (max-width: 768px) {
+    #head{
+        left: 42%; 
+        font-size: 60px;
+        text-transform: uppercase;
+    }
+    #music{
+        font-family:'Finlandica', sans-serif;
+        color: rgba(255, 249, 249, 0.932);
+        font-size: 30px;
+        text-align: center;
+        top: 52%;
+        left: 40%;
+    }
+    #block{
+        width:140px;
+        height:50px;
+        background-color:black;
+        color:white;
+        margin-left: 70px;
+        margin-top: 380px;
+        text-align: center;
+        font-style: italic;
+        border:2px solid turquoise;
+    }
+    .login{
+        text-decoration: none;
+        font-size:24px;
+        color: white;
+        transition: all 0.5s;
+        margin-top: -2px;
+        margin-right: -32px;
+    }
+    .login:hover{
+        background-color: black;
+        color: white;
+        border-radius: 3px;
+        transition:0.5s;
+        padding:10px;
+        border:1.5px solid turquoise;
+    }
+    .show-btn,.hide-btn{
+        display: block;
+    }
+    .bg{
+        background-size: cover;
+        
+    }
+    .menu {
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        right: -100%;
+        width: 100%;
+        height: 100vh;
+        background-color: #333;
+        line-height: normal;
+        text-align: center;
+        transition: .7s;
+        padding: 80px 0px;
+    }
+    .menu li{
+        display: block;
+    }
+    .menu li a{
+        display: block;
+    }
+    .menu li a:hover{
+        background-color: black;
+        color: white;
+        border-radius: 3px;
+        transition:0.5s;
+        padding:5px;
+        border:1.5px solid turquoise;
+    }
+    #chk:checked ~ .menu{
+        right: 0;
+    }
+    .hide-btn{
+        position: absolute;
+        right: 20px;
+        top: 10px;
+    }
 }

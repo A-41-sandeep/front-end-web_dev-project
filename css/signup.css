@@ -173,3 +173,53 @@ form{
 .loginform{
     display: block;
 }
+
+@media screen and (max-width: 768px) {
+    .container {
+        top: 10%; /* Further adjust vertical alignment for smaller screens */
+    }
+
+    .forms-container {
+        flex-direction: column; /* Stack forms vertically */
+        align-items: center;
+        position: static; /* Remove absolute positioning */
+    }
+
+    .actionbtns {
+        width: 100%;
+        margin: 20px 0; /* Adjust margin for spacing */
+        flex-direction: row; /* Display buttons horizontally */
+    }
+
+    .actionBtn, .moveBtn {
+        width: auto;
+        flex: 1; /* Equal width for buttons */
+        margin: 5px; /* Adjust margin for spacing */
+    }
+
+    .input-field {
+        max-width: 100%; /* Full width for input fields */
+    }
+
+    .btn1 {
+        width: 100%; /* Full width for buttons */
+        margin: 10px 0; /* Adjust margin for spacing */
+    }
+
+    .social-text {
+        margin: 10px 0; /* Adjust margin for spacing */
+    }
+
+    .social-icon {
+        margin: 5px; /* Adjust margin for spacing */
+    }
+
+    form {
+        display: none;
+    }
+
+    .signupform,
+    .loginform {
+        display: block;
+    }
+}
