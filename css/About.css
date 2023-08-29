@@ -124,8 +124,6 @@ h2{
         display: block;
     }
     .bg{
-        background-image: url("https://www.ppt-backgrounds.net/thumbs/dark--2560x1600--71060-template-image.jpeg"); 
-        background-repeat:repeat-y;
         background-size: cover; 
         height: 1600px; 
     }
